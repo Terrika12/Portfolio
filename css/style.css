@@ -1,0 +1,206 @@
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+  
+  /* ==========================================
+  Single-colored icons can be modified like so:
+  .icon-name {
+    font-size: 32px;
+    color: red;
+  }
+  ========================================== */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Neucha', cursive;
+}
+
+header {
+    padding: 30px 0 20px 5px;
+}
+
+.welcome{
+    padding-top: 9px;
+    font-size: 22px;
+    color: rgba(87, 139, 87, 0.507);
+}
+
+.header {
+    margin: 0;
+    background-color: beige;
+}
+
+.topNav {
+    display: inline-flex;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.topNav li {
+    padding-left: 30px;
+}
+
+.topNav li a {
+    color: rgb(160, 137, 106);
+}
+
+.topNav li a :hover {
+    color: rgba(87, 139, 87, 0.507);
+}
+
+.socialMedia {
+    padding-top: 12px;
+}
+.socialMedia li {
+    padding-top: 20px;
+    padding-right: 10px; 
+    display: inline;
+    text-align: right;
+    list-style-type: none;
+}
+
+.socialMedia a {
+    color: rgba(87, 139, 87, 0.507);
+}
+
+.socialMedia a:hover {
+    color: rgb(160, 137, 106); 
+}
+
+.main {
+     background-color: #dbe5dd;
+     background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%2392ac97' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+     padding-bottom: 20px;
+}
+
+.about {
+    color: rgb(160, 137, 106);
+    font-size: 40px;
+}
+
+.name {
+    margin-top: -70px;
+    font-size: 100px;
+    color: rgb(160, 137, 106);
+}
+
+.jobDescription {
+    font-size: 20px;
+    font-family: 'Neucha', cursive;
+    color:rgba(87, 139, 87, 0.507);
+}
+
+.info {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+    font-family: 'Neucha', cursive;
+    color: rgb(160, 137, 106);
+}
+
+.info p {
+    color: rgb(160, 137, 106);
+}
+
+.myCertificates {
+    margin-top: 20px;
+    font-size: 25px;
+    color: rgba(87, 139, 87, 0.507);
+}
+
+h4 {
+    padding-top: 20px;
+}
+
+.projects {
+    font-size: 40px;
+    color: rgb(160, 137, 106);
+}
+
+.card-block picture{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100px;
+}
+
+.myInfo {
+    padding-top: 100px;
+}
+
+.myInfo img {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 600px;
+}
+
+.webPages{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.webPage img{
+    /*margin-left: 100px;
+    padding-left: 10px;*/
+    padding-top: 20px;
+    /*padding-bottom: 20px;*/
+    width: 250px;
+    height: 300px;
+}
+
+.webPage a:hover {
+    background-color: rgb(160, 137, 106); 
+}
+
+.btn {
+    width: 100px;
+    color: rgb(160, 137, 106);
+    background-color: rgba(87, 139, 87, 0.507);
+    border-color: rgba(87, 139, 87, 0.507);
+}
+
+
+.btn a {
+    color: rgba(87, 139, 87, 0.507);
+}
+
+.html {
+    margin-left: 200px;
+}
+
+.css {
+    margin-left: 200px;
+}
+
+footer {
+    background-color: beige;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+.contactMe {
+    padding-top: 10px;
+    color: rgb(160, 137, 106);
+}
+
+.contact li {
+    list-style-type: none;
+    display: inline;
+}
+
+.contact a {
+    color: rgba(87, 139, 87, 0.507);
+}
+
+.contact a:hover {
+    color: rgb(160, 137, 106);
+}
+
